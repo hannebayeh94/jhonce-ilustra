@@ -1,0 +1,15 @@
+{
+  "name": "jhonce-ilustra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio de portafolio de Jhonce Ilustra - Motion Graphics & Diseno Grafico",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --watch",
+    "serve": "npx --yes serve . -l 3000"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
